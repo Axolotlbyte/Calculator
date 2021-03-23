@@ -1,0 +1,105 @@
+.calculator{
+    width: 350px;
+    height: 600px;
+    background-color: rgb(217, 218, 216);
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 2px solid black;
+    border-radius: 15px ;
+    box-shadow: 0 0 0 3px #050505;
+    box-shadow: 0 0 5px 3px #050505;
+}
+#btCont {
+    display: grid;
+    grid-template-columns: repeat(4,83px);
+    grid-template-rows: repeat(4,83px);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    overflow: hidden;
+}
+
+#disp {
+    position: relative;
+    perspective: 1px;
+    height: 115px;
+    width: 330px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(231, 213, 185);
+    box-shadow: 0 0 0 3px #e78267;
+    border: 1px solid rgb(0, 0, 0)
+    border-collapse: separate;
+    border-radius: 10px;
+}
+
+div#disp p#pero {
+    font-size: 25px;
+    text-align: end;
+    margin-right: 8px;
+    margin-left: 5px;
+    text-overflow: ellipsis;
+    width: 320px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div#disp p#para {
+    margin-right: 8px;
+    margin-left: 5px;
+    width: 320px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div#btCont button {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    font-size: 25px;
+    color: blanchedalmond;
+    background-color: #000;
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 50%;
+    box-shadow: 0 0 3px 3px #7c7573;
+}
+
+div#btCont .oper{
+    background-color: lightseagreen;
+}
+
+div#btCont .long{
+    width: 200px;
+    height: 60px;
+    font-size: 40px; 
+    background-color: rgb(28, 196, 13);
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 50px;
+    position: relative;
+}
+
+div#btCont .long:hover {
+    font-size: 35px;
+}
+
+div#btCont .dive{
+    float: right;
+    margin-left: 175px;
+}
+
+div#btCont button:hover {
+    background-color: blanchedalmond;
+    font-size: 30px;
+    color: black;
+}
+
+div#btCont button#rem {
+    background-color: maroon;
+    color: white;
+}
